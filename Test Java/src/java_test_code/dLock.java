@@ -5,7 +5,7 @@ public class dLock {
     String str1 = "Java";
     String str2 = "UNIX";
      
-    Thread trd1 = new Thread("My Thread 1"){
+    Thread trd1 = new Thread("My Thread new"){
         public void run(){
             while(true){
                 synchronized(str1){
